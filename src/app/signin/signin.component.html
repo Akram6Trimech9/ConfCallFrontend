@@ -1,0 +1,26 @@
+<div  class="container">
+    <div class="bloc1">
+       <p class="title">Sign in </p>
+       <div class="google">
+          <a href=""> <p class="textinput" >Sign in with google</p></a>
+           <img id="googleIcon"  src='../../../assets/Img/icons8-google.png' alt=""  />
+       </div>
+        <div  class="line"></div>
+        <form [formGroup]="formg" class="forms">
+          <input formControlName="email"  type="text" id="fname" name="fname" placeholder="name">
+          <input formControlName="motdepasse"  type="password" id="lname" name="lname" placeholder="password">
+      </form>
+    <div class="formbuttom">
+      <div class="remember"> 
+       <input  type="checkbox" id="remember" name="scales" checked>
+     <label  class="checkLabel"for="remember">Remember me </label>
+     <button (click)="submit()" class="signin">Sign in </button>
+   </div>
+     <a id="frg"  >  Forget your password ?</a> 
+     <a id="cra"  style="cursor: pointer;"routerLinkActive="active" routerLink="/signup" >Create an account </a>
+   </div>
+   </div>
+     <img id="img"src='../../../assets/Img/logo.png'alt="">
+   </div>
+ 
+ 

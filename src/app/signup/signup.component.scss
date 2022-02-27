@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+html{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#img{
+    float: left;
+ margin-top: 10%;   
+ margin-left: 47%;
+    width: 600px;
+    height: 400px;
+}
+ 
+.bloc1{
+    position: fixed;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+     opacity: 1;
+    height: 95%;
+    box-shadow: 6px 6px 6px #707070;
+
+  }
+
+.forms{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.google{
+    margin-bottom: 40px;
+    margin-top: 0px;
+    width: 500px;
+    background: #5F94D9 0% 0% no-repeat padding-box;
+    height: 70px;
+    border-radius: 30px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+ }
+ #googleIcon{
+     padding-left: 20px;
+width: 50px;
+height: 50px;
+ }
+ .textinput{
+     padding-left: 30px;
+    margin-left:20px ;
+    font: normal normal normal 33px/46px Comic Sans MS;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    }
+    .formbuttom{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+ 
+    }
+    .remember{
+        margin:20px;
+    }
+    .signin{
+float: left;
+margin-top: 30px;
+margin-right: 400px;    
+}
+    
+
+
+.title{
+width: 100px;
+height: 58px;
+    color: #707070;; 
+    font-size: 28px;
+    text-align: left;
+    font-family:Pacifico ;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a { text-decoration: none; }
+.singleline{
+width: 0px;
+
+/* UI Properties */
+border: 1px solid #707070;
+opacity: 1;
+}
+
+
+.line{
+
+   width: 369px;
+    border: 1px solid #707070;
+opacity: 1;
+margin-bottom: 20px;
+}
+input[type=text] {
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    opacity: 1;
+    width: 350px;
+    height: 40px;
+    font: normal normal normal 30px/42px Comic Sans MS;
+    padding-left: 30px;
+}
+input[type=password] {
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    opacity: 1;
+    width: 350px;
+    height: 40px;
+    font: normal normal normal 30px/42px Comic Sans MS;
+    padding-left: 30px;
+}
+::placeholder {
+  padding-left: 30px;
+    width: 83px;
+    height: 42px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 30px/42px Comic Sans MS;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  }
+  input[type='checkbox'] {
+    
+      background: #5F94D9 0% 0% no-repeat padding-box;
+  width: 36px;
+height: 36px;
+/* UI Properties */
+opacity: 1;
+}
+input[type="checkbox"]::before {
+    /* ...existing styles */
+  
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  }
+  .checkLabel{
+      text-align: left;
+      font: normal normal normal 33px/46px Comic Sans MS;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+.signin{
+ 
+    background: #5C9BEE 0% 0% no-repeat padding-box;    
+    border: #5C9BEE;
+    text-align: left;
+font: normal normal normal 33px/46px Comic Sans MS;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#frg{
+    text-align: left;
+    font: normal normal normal 33px/46px Comic Sans MS;
+    letter-spacing: 0px;
+    color: #006DFB;
+    opacity: 1; 
+}
+#cra{
+  text-align: left;
+    font: normal normal normal 33px/46px Comic Sans MS;
+    letter-spacing: 0px;
+    color: #006DFB;
+    opacity: 1; 
+}
+.background{
+width: 2734px;
+height: 1080px;
+background: transparent;
+}
+input[type="file" i] {
+
+    margin-top: 20px;
+    margin-left: 20px;
+    font: normal normal normal 20px/30px Comic Sans MS;
+    background-color: #5C9BEE;
+    width: 290px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #707070;
+    color: #FFFFFF;
+}

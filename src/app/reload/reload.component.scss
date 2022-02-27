@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+.container{
+    padding:50px;
+    border-radius: 20px;
+     display: flex;
+     box-shadow: 5px 5px 5px  hsl(0, 0%, 49%) ;
+     margin: auto ;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  
+}
+#img{
+    border: 2px #231F20;
+    margin-left: -10px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+width: 200px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    margin-top: 35px;
+    background: #5F94D9 0% 0% no-repeat padding-box;
+    border-radius: 63px;
+    font: normal normal normal 30px/60px Pacifico;
+    letter-spacing: 0px;
+    color: #F6F6F6;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 6px 0  #7daae6 ;
+    margin-bottom:6px ;
+    transition: all 0.2s;}
+    .title:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #7daae6 ;
+      }
+      .title:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #7daae6  ;
+      }
+    
+.join{
+    color: white;
+}
+.card{
+    margin-top:40px;
+
+width: 300px;
+display: flex;
+flex-direction: row;
+gap:20px;
+;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 400px;
+    height: 50px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 57px;
+opacity: 1;
+box-shadow: 0 6px 0  #858585;
+    margin-bottom:6px ;
+    transition: all 0.2s;
+    border: none;
+}
+    .signup:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #858585 ;
+      }
+      .signup:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #858585  ;
+      }
+    
+.signuptitle{
+    font: normal normal normal 20px/30px Pacifico;
+    letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+}
+.signin{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 400px;
+height: 50px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 57px;
+opacity: 1;
+border: none;
+box-shadow: 0 6px 0  #858585 ;
+    margin-bottom:6px ;
+    transition: all 0.2s;}
+    .signin:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #858585 ;
+      }
+      .signin:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #858585  ;
+      }
+    
+.signintitle{
+text-align: left;
+font: normal normal normal 20px/30px Pacifico;
+letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+
+}
+
+a { text-decoration: none; color: black; }

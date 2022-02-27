@@ -1,0 +1,19 @@
+
+<div class="container">
+    <div class="bloc1">
+       <p class="title">Sign Up </p>
+        <div class="line"></div>
+      <form [formGroup]="Myform" class="forms" >
+       <input  formControlName="nom"  type="text" id="fname" name="fname" placeholder="name">
+       <input  formControlName="prenom" type="text" id="fname" name="fname" placeholder="LName">
+       <input formControlName="email" type="text" id="fname" name="fname" placeholder="Email">
+       <input  formControlName="motdepasse"  type="password" id="lname" name="lname" placeholder="Password">
+<input (change)="onpictureselected($event)"  class="fileu" type="file" id="avatar" name="avatar"  accept="image/png, image/jpeg">
+       <button (click)="saveuser()" class="signin" >Sign Up </button>
+    </form>
+   </div>
+<img id="img"src='../../../assets/Img/logo.png'alt="">
+</div>
+
+ 
+ 

@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.nav{
+    margin: auto 80px;
+     display:flex;
+    flex-direction: row;
+    gap: 100px; 
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+height: 90px;
+    background: #FE9E5E 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 54px;
+opacity: 1;
+}
+.logo{
+    width: 150px ;
+    height: 120px;
+    background-repeat: no-repeat;
+     background-size: 150px 100px;
+
+}
+img{
+    width: 73px;
+height: 73px;
+/* UI Properties */
+background: transparent  0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+height: 90px;
+background: #5F94D9 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 54px;
+opacity: 1;
+}
+
+.line{
+    height: 2px;
+    background-color: #707070;
+}
+#text{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 140px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 55px/90px Pacifico;
+letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+}
+.addcontacts{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+        width: 400px;
+height: 100px;
+/* UI Properties */
+background: #5F94D9 0% 0% no-repeat padding-box;
+border-radius: 73px;
+opacity: 1;
+}
+.contacttext{
+    
+    text-align: left;
+font: normal normal normal 30px/50px Comic Sans MS;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
