@@ -133,9 +133,7 @@ export class VideopageComponent  implements OnInit, OnDestroy {
   
       console.log(this.peers);
     }
-  
-    ngOnDestroy() {
+  ngOnDestroy() {
       this.end$.next(1);
     }
   }
-

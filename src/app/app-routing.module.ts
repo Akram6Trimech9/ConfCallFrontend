@@ -7,6 +7,7 @@ import { MovetowhereComponent } from './movetowhere/movetowhere.component';
 import { ReloadComponent } from './reload/reload.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
+import { TestingCComponent } from './testing-c/testing-c.component';
 import { VideopageComponent } from './videopage/videopage.component';
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'main', component: VideopageComponent},
   {path: 'signup', component: SignupComponent},
   {path:'signin',component:SigninComponent},
+  {path:'testing',component:TestingCComponent},
   {path: 'client',  canActivate:[AuthemployeeGuard],  component: MovetowhereComponent  ,
     children: [
       {path:'interface',component:ClientInterfaceComponent},

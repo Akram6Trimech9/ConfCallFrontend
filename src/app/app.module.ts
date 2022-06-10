@@ -11,6 +11,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SigninComponent } from './signin/signin.component';
 import { MovetowhereComponent } from './movetowhere/movetowhere.component';
+import { TestingCComponent } from './testing-c/testing-c.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MovetowhereComponent } from './movetowhere/movetowhere.component';
     ReloadComponent,
     ClientInterfaceComponent,
     MainClientComponent,
-    MovetowhereComponent
+    MovetowhereComponent,
+    TestingCComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

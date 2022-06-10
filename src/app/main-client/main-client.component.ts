@@ -1,4 +1,4 @@
- import { ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
+ import { ChangeDetectorRef, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
   import { IMsg, IMsgType } from 'models/IMessage.js';
   import { IPeerJs } from 'models/peerJS.js';
   import { from, Subject } from 'rxjs';
@@ -12,6 +12,9 @@ import { UserService } from '../services/user.service.js';
   styleUrls: ['./main-client.component.scss']
 })
 export class MainClientComponent implements OnInit, OnDestroy {
+  @ViewChild("video", { static: true }) audio: any;
+  player: any = document.getElementById("video");
+
   show=true;
   title = 'frontend';
   msg: string = '';
@@ -142,8 +145,12 @@ export class MainClientComponent implements OnInit, OnDestroy {
     console.log(this.peers);
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(){
     this.end$.next(1);
   }
-
+ stopmic(){
+    this.audio.play();
+    this.player.play();
+}
+ 
 }

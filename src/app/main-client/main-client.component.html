@@ -39,6 +39,7 @@
      </label>
       <div   class="video-card" *ngIf="localStream">
         <video 
+        #video
           id="me"
           width="300px"
           height="300px"
@@ -70,7 +71,7 @@
     <footer class="footer">
       <div class="buttonss">
         <button class="but" ><img id="img" src='../../../assets/Img/stopvideo.png' alt=""></button>
-        <button class="but"><img id="img"  src='../../../assets/Img/stopmicro.png' alt=""></button>
+        <button class="but" (click)="stopmic()"><img id="img"  src='../../../assets/Img/stopmicro.png' alt=""></button>
         <button class="but"><img  id="img" src='../../../assets/Img/share-this-2600.png' alt=""></button>
         <button class="but"><img  id="img"  src='../../../assets/Img/icons8-more-48.png' alt=""></button>
         <button class="endcall"><img id="end"  src='../../../assets/Img/icons8-end-call-50.png' alt=""></button>

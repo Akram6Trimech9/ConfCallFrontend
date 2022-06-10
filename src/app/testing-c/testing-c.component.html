@@ -1,0 +1,9 @@
+<p>testing-c works!</p>
+<div> click </div>
+<form #form="ngForm" (ngSubmit)="postForm(form)">
+<input type="text" placeholder="name" name="nom" ngModel />
+<input type="text" placeholder="lastname" name="prenom" ngModel />
+<input type="text" placeholder="email" name="mail"  ngModel />
+<input type="password" placeholder="password" name="motdepasse" ngModel />
+<button type="submit">Click me </button>
+</form>
